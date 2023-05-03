@@ -99,7 +99,7 @@ const Field = ({setTestState, children}) => {
             // Увеличивает количество опечаток для расчета точности
             setTypingInfo(prevState => ({
                 ...prevState,
-                misType: prevState.misType++
+                misType: prevState.misType+1
             }))
         }
     }
