@@ -74,13 +74,13 @@ const Field = ({setTestState, children}) => {
                     start: Date.now()
                 }))
             }
-
+            
             // Отмечатет нажатую клавишу как правильную
             setData(prevState => ({
                 ...prevState,
                 content: {
                     ...prevState.content,
-                    counter: prevState.content.counter++,
+                    counter: prevState.content.counter+1,
                     isWrong: false
                 }
             }))
