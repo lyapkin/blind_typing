@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/blind_typing/static/css/main.1664df5a.css",
-    "main.js": "/blind_typing/static/js/main.b0eca942.js",
+    "main.js": "/blind_typing/static/js/main.2dda06d6.js",
     "index.html": "/blind_typing/index.html",
     "main.1664df5a.css.map": "/blind_typing/static/css/main.1664df5a.css.map",
-    "main.b0eca942.js.map": "/blind_typing/static/js/main.b0eca942.js.map"
+    "main.2dda06d6.js.map": "/blind_typing/static/js/main.2dda06d6.js.map"
   },
   "entrypoints": [
     "static/css/main.1664df5a.css",
-    "static/js/main.b0eca942.js"
+    "static/js/main.2dda06d6.js"
   ]
 }
