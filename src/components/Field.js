@@ -105,7 +105,7 @@ const Field = ({setTestState, children}) => {
     }
 
 
-    const speed = Math.round((data.content?.counter || 0)/(typingInfo.time || 0) * 60) || 0
+    const speed = Math.round((data.content?.counter || 0)/(typingInfo.time || 1) * 60) || 0
     const accuracy = 100 - Math.round(typingInfo.misType/data.content?.text.length * 10000)/100
 
 
